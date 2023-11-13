@@ -1,8 +1,8 @@
 """
 Accepted
 48 [Medium]
-Runtime: 41 ms, faster than 64.81% of Java online submissions for Rotate Image.
-Memory Usage: 16.13 MB, less than 91.41% of Java online submissions for Rotate Image.
+Runtime: 41 ms, faster than 64.81% of Python3 online submissions for Rotate Image.
+Memory Usage: 16.13 MB, less than 91.41% of Python3 online submissions for Rotate Image.
 """
 class Solution:
     def rotate(self, matrix: List[List[int]]) -> None:
