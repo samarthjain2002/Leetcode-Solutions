@@ -1,8 +1,8 @@
 """
 Accepted
 74 [Medium]
-Runtime: 53 ms, faster than 35.46% of Java online submissions for Search a 2D Matrix.
-Memory Usage: 16.9 MB, less than 47.99% of Java online submissions for Search a 2D Matrix.
+Runtime: 53 ms, faster than 35.46% of Python3 online submissions for Search a 2D Matrix.
+Memory Usage: 16.9 MB, less than 47.99% of Python3 online submissions for Search a 2D Matrix.
 """
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
