@@ -1,5 +1,8 @@
 """
-2391. Minimum Amount of Time to Collect Garbage
+Accepted
+2391 [Medium]
+Runtime: 1111 ms, faster than 14.04% of Python3 online submissions for Minimum Amount of Time to Collect Garbage.
+Memory Usage: 39.51 MB, less than 14.71% of Python3 online submissions for Minimum Amount of Time to Collect Garbage.
 """
 #https://chat.openai.com/share/8c0424de-dee8-477e-9314-fa6ccea8b3e2
 class Solution:
@@ -14,11 +17,11 @@ class Solution:
                     paper = i
                 if garbage[i][j] == 'G' and glass == -1:
                     glass = i
-                if metal != -1 and paper != -1 and glass != -1:
-                    break
-            else:
+                if metal != -1 and paper != -1 and glass != -1:     #Your condition to exit both loops
+                    break       #Breaks the inner loop
+            else:       #This will only execute if the inner loop completes without hitting the 'break' statement
                 continue
-            break
+            break       #Breaks the outer loop
 
         count  = 0
 
