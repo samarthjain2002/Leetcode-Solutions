@@ -1,7 +1,7 @@
 #Accepted
 #1404 [Medium]
-#Runtime: 23 ms, faster than 53.57% of Java online submissions for Number of Steps to Reduce a Number in Binary Representation to One.
-#Memory Usage: 13.8 MB, less than 17.86% of Java online submissions for Number of Steps to Reduce a Number in Binary Representation to One.
+#Runtime: 23 ms, faster than 53.57% of Python online submissions for Number of Steps to Reduce a Number in Binary Representation to One.
+#Memory Usage: 13.8 MB, less than 17.86% of Python online submissions for Number of Steps to Reduce a Number in Binary Representation to One.
 class Solution(object):
     def numSteps(self, s):
         """
