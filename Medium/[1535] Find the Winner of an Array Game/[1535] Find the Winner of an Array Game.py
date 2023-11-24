@@ -1,8 +1,8 @@
 """
 Accepted
 1535 [Medium]
-Runtime: 533 ms, faster than 58.70% of Java online submissions for Find the Winner of an Array Game.
-Memory Usage: 29.89 MB, less than 67.39% of Java online submissions for Find the Winner of an Array Game.
+Runtime: 533 ms, faster than 58.70% of Python3 online submissions for Find the Winner of an Array Game.
+Memory Usage: 29.89 MB, less than 67.39% of Python3 online submissions for Find the Winner of an Array Game.
 """
 class Solution:
     def getWinner(self, arr: List[int], k: int) -> int:
