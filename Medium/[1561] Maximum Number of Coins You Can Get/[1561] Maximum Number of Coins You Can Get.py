@@ -1,8 +1,8 @@
 """
 Accepted
 1561 [Medium]
-Runtime: 534 ms, faster than 38.59% of Java online submissions for Maximum Number of Coins You Can Get.
-Memory Usage: 28.72 MB, less than 21.94% of Java online submissions for Maximum Number of Coins You Can Get.
+Runtime: 534 ms, faster than 38.59% of Python3 online submissions for Maximum Number of Coins You Can Get.
+Memory Usage: 28.72 MB, less than 21.94% of Python3 online submissions for Maximum Number of Coins You Can Get.
 """
 class Solution:
     def maxCoins(self, piles: List[int]) -> int:
