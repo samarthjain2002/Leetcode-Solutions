@@ -1,8 +1,8 @@
 """
 Accepted
 169 [Easy]
-Runtime: 151 ms, faster than 56.61% of Java online submissions for Majority Element.
-Memory Usage: 17.80 MB, less than 46.70% of Java online submissions for Majority Element.
+Runtime: 151 ms, faster than 56.61% of Python3 online submissions for Majority Element.
+Memory Usage: 17.80 MB, less than 46.70% of Python3 online submissions for Majority Element.
 """
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
