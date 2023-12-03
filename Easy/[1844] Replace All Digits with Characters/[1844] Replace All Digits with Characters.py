@@ -1,8 +1,8 @@
 """
 Accepted
 1844 [Easy]
-Runtime: 41 ms, faster than 40.32% of Java online submissions for Replace All Digits with Characters.
-Memory Usage: 16.2 MB, less than 70.79% of Java online submissions for Replace All Digits with Characters.
+Runtime: 41 ms, faster than 40.32% of Python3 online submissions for Replace All Digits with Characters.
+Memory Usage: 16.2 MB, less than 70.79% of Python3 online submissions for Replace All Digits with Characters.
 """
 class Solution:
     def replaceDigits(self, s: str) -> str:
