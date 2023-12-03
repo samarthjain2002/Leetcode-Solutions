@@ -1,8 +1,8 @@
 """
 Accepted
-119 [Easy]
-Runtime: 2388 ms, faster than 26.31% of Java online submissions for Find Triangular Sum of an Array.
-Memory Usage: 13.3 MB, less than 78.20% of Java online submissions for Find Triangular Sum of an Array.
+2221 [Easy]
+Runtime: 2388 ms, faster than 26.31% of Python online submissions for Find Triangular Sum of an Array.
+Memory Usage: 13.3 MB, less than 78.20% of Python online submissions for Find Triangular Sum of an Array.
 """
 class Solution(object):
     def triangularSum(self, nums):
