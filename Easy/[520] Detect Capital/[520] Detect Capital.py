@@ -1,8 +1,8 @@
 """
 Accepted
 520 [Easy]
-Runtime: 12 ms, faster than 70.32% of Java online submissions for Detect Capital.
-Memory Usage: 13.50 MB, less than 13.47% of Java online submissions for Detect Capital.
+Runtime: 12 ms, faster than 70.32% of Python online submissions for Detect Capital.
+Memory Usage: 13.50 MB, less than 13.47% of Python online submissions for Detect Capital.
 """
 class Solution(object):
 
