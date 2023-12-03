@@ -1,8 +1,8 @@
 """
 Accepted
 121 [Easy]
-Runtime: 863 ms, faster than 56.38% of Java online submissions for Best Time to Buy and Sell Stock.
-Memory Usage: 27.18 MB, less than 93.66% of Java online submissions for Best Time to Buy and Sell Stock.
+Runtime: 863 ms, faster than 56.38% of Python3 online submissions for Best Time to Buy and Sell Stock.
+Memory Usage: 27.18 MB, less than 93.66% of Python3 online submissions for Best Time to Buy and Sell Stock.
 """
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
