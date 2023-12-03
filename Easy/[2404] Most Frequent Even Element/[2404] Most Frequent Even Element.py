@@ -1,8 +1,8 @@
 """
 Accepted
 2404 [Easy]
-Runtime: 249 ms, faster than 25.37% of Java online submissions for Most Frequent Even Element.
-Memory Usage: 13.3 MB, less than 76.12% of Java online submissions for Most Frequent Even Element.
+Runtime: 249 ms, faster than 25.37% of Python3 online submissions for Most Frequent Even Element.
+Memory Usage: 13.3 MB, less than 76.12% of Python3 online submissions for Most Frequent Even Element.
 """
 class Solution:
     def mostFrequentEven(self, nums: List[int]) -> int:
