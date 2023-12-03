@@ -1,8 +1,8 @@
 """
 Accepted
 119 [Easy]
-Runtime: 13 ms, faster than 65.27% of Java online submissions for Pascal's Triangle II.
-Memory Usage: 13.17 MB, less than 75.82% of Java online submissions for Pascal's Triangle II.
+Runtime: 13 ms, faster than 65.27% of Python online submissions for Pascal's Triangle II.
+Memory Usage: 13.17 MB, less than 75.82% of Python online submissions for Pascal's Triangle II.
 """
 class Solution(object):
     def getRow(self, rowIndex):
