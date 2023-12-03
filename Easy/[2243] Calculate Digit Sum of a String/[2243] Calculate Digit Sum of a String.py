@@ -1,8 +1,8 @@
 """
 Accepted
 2243 [Easy]
-Runtime: 20 ms, faster than 25.37% of Java online submissions for Calculate Digit Sum of a String.
-Memory Usage: 13.3 MB, less than 76.12% of Java online submissions for Calculate Digit Sum of a String.
+Runtime: 20 ms, faster than 25.37% of Python online submissions for Calculate Digit Sum of a String.
+Memory Usage: 13.3 MB, less than 76.12% of Python online submissions for Calculate Digit Sum of a String.
 """
 class Solution(object):
     def digitSum(self, s, k):
