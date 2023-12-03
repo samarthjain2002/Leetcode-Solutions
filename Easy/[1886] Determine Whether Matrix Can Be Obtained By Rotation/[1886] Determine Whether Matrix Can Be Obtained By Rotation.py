@@ -1,8 +1,8 @@
 """
 Accepted
 1886 [Easy]
-Runtime: 46 ms, faster than 74.66% of Java online submissions for Determine Whether Matrix Can Be Obtained By Rotation.
-Memory Usage: 16.24 MB, less than 58.41% of Java online submissions for Determine Whether Matrix Can Be Obtained By Rotation.
+Runtime: 46 ms, faster than 74.66% of Python3 online submissions for Determine Whether Matrix Can Be Obtained By Rotation.
+Memory Usage: 16.24 MB, less than 58.41% of Python3 online submissions for Determine Whether Matrix Can Be Obtained By Rotation.
 """
 class Solution:
     def findRotation(self, mat: List[List[int]], target: List[List[int]]) -> bool:
