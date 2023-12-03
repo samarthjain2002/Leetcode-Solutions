@@ -1,8 +1,8 @@
 """
 Accepted
 118 [Easy]
-Runtime: 21 ms, faster than 18.43% of Java online submissions for Pascal's Triangle.
-Memory Usage: 13.3 MB, less than 18.55% of Java online submissions for Pascal's Triangle.
+Runtime: 21 ms, faster than 18.43% of Python online submissions for Pascal's Triangle.
+Memory Usage: 13.3 MB, less than 18.55% of Python online submissions for Pascal's Triangle.
 """
 class Solution(object):
     def generate(self, numRows):
