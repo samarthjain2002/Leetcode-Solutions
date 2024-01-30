@@ -1,8 +1,8 @@
 """
 Accepted
 1921 [Medium]
-Runtime: 819 ms, faster than 7.75% of Java online submissions for Eliminate Maximum Number of Monsters.
-Memory Usage: 37.40 MB, less than 6.20% of Java online submissions for Eliminate Maximum Number of Monsters.
+Runtime: 819 ms, faster than 7.75% of Python3 online submissions for Eliminate Maximum Number of Monsters.
+Memory Usage: 37.40 MB, less than 6.20% of Python3 online submissions for Eliminate Maximum Number of Monsters.
 """
 class Solution:
     def eliminateMaximum(self, dist: List[int], speed: List[int]) -> int:
