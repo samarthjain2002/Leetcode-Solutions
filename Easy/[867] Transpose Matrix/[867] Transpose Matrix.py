@@ -1,8 +1,8 @@
 """
 Accepted
 867 [Easy]
-Runtime: 78 ms, faster than 29.89% of Java online submissions for Transpose Matrix.
-Memory Usage: 17.14 MB, less than 53.19% of Java online submissions for Transpose Matrix.
+Runtime: 78 ms, faster than 29.89% of Python3 online submissions for Transpose Matrix.
+Memory Usage: 17.14 MB, less than 53.19% of Python3 online submissions for Transpose Matrix.
 """
 class Solution:
     def transpose(self, matrix: List[List[int]]) -> List[List[int]]:
