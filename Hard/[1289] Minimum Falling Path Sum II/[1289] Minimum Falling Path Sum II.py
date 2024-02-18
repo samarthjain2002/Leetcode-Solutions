@@ -1,8 +1,8 @@
 """
 Accepted
 42 [Hard]
-Runtime: 642 ms, faster than 51.01% of Python3 online submissions for Minimum Falling Path Sum II.
-Memory Usage: 20.16 MB, less than 79.35% of Python3 online submissions for Minimum Falling Path Sum II.
+Runtime: 642 ms, faster than 42.43% of Python3 online submissions for Minimum Falling Path Sum II.
+Memory Usage: 20.16 MB, less than 63.65% of Python3 online submissions for Minimum Falling Path Sum II.
 """
 class Solution:
     def minFallingPathSum(self, grid: List[List[int]]) -> int:
