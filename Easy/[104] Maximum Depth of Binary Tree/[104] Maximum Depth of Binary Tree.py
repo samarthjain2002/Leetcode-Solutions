@@ -1,6 +1,6 @@
 """
 Accepted
-100 [Easy]
+104 [Easy]
 Runtime: 30 ms, faster than 97.72% of Python3 online submissions for Maximum Depth of Binary Tree.
 Memory Usage: 17.51 MB, less than 89.59% of Python3 online submissions for Maximum Depth of Binary Tree.
 """
