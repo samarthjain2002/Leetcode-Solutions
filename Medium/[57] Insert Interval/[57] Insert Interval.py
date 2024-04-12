@@ -2,7 +2,7 @@
 Accepted
 57 [Medium]
 Runtime: 78 ms, faster than 41.35% of Python3 online submissions for Insert Interval.
-Memory Usage: 19.80 MB, less than 79.86% of Python3 online submissions for Insert Interval
+Memory Usage: 19.80 MB, less than 79.86% of Python3 online submissions for Insert Interval.
 """
 class Solution:
     def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
