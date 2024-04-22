@@ -1,1 +1,0 @@
-My first ever accepted submission for a Medium level problem on leetcode
