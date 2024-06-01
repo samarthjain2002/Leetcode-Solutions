@@ -1,8 +1,8 @@
 """
 Accepted
 389 [Easy]
-Runtime: 79 ms, faster than 83.15% of Python3 online submissions for Find the Difference.
-Memory Usage: 16.71 MB, less than 66.48% of Python3 online submissions for Find the Difference.
+Runtime: 27 ms, faster than 97.43% of Python3 online submissions for Find the Difference.
+Memory Usage: 16.56 MB, less than 85.07% of Python3 online submissions for Find the Difference.
 """
 class Solution:
     def findTheDifference(self, s: str, t: str) -> str:
