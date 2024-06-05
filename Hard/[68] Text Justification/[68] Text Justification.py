@@ -1,6 +1,6 @@
 """
 Accepted
-68 [Easy]
+68 [Hard]
 Runtime: 30 ms, faster than 90.24% of Python3 online submissions for Text Justification.
 Memory Usage: 16.66 MB, less than 55.10% of Python3 online submissions for Text Justification.
 """
