@@ -1,8 +1,8 @@
 """
 Accepted
 846 [Medium]
-Runtime: 166 ms, faster than 49.17% of Python3 online submissions for Hand of Straights.
-Memory Usage:  18.36 MB, less than 65.17% of Python3 online submissions for Hand of Straights.
+Runtime: 160 ms, faster than 67.72% of Python3 online submissions for Hand of Straights.
+Memory Usage:  18.45 MB, less than 50.76% of Python3 online submissions for Hand of Straights.
 """
 class Solution:
     def isNStraightHand(self, hand: List[int], groupSize: int) -> bool:
