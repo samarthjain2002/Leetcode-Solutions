@@ -2,7 +2,7 @@
 Accepted
 1347 [Medium]
 Runtime: 155 ms, faster than 62.81% of Python3 online submissions for Minimum Number of Steps to Make Two Strings Anagram.
-Memory Usage:  17.81 MB, less than 21.41% of Python3 online submissions for Minimum Number of Steps to Make Two Strings Anagram.
+Memory Usage: 17.81 MB, less than 21.41% of Python3 online submissions for Minimum Number of Steps to Make Two Strings Anagram.
 """
 class Solution:
     def minSteps(self, s: str, t: str) -> int:
