@@ -2,7 +2,7 @@
 Accepted
 1814 [Medium]
 Runtime: 649 ms, faster than 27.19% of Python3 online submissions for Count Nice Pairs in an Array.
-Memory Usage: 26.84MB, less than 33.99% of Python3 online submissions for Count Nice Pairs in an Array.
+Memory Usage: 26.84 MB, less than 33.99% of Python3 online submissions for Count Nice Pairs in an Array.
 """
 class Solution:
     def countNicePairs(self, nums: List[int]) -> int:
