@@ -4,8 +4,6 @@ Accepted
 Runtime: 1720 ms, faster than 91.39% of Python3 online submissions for Second Minimum Time to Reach Destination.
 Memory Usage:  26.38 MB, less than 78.81% of Python3 online submissions for Second Minimum Time to Reach Destination.
 """
-from collections import defaultdict
-
 class Solution:
     def secondMinimum(self, n: int, edges: List[List[int]], time: int, change: int) -> int:
         adj = defaultdict(list)
