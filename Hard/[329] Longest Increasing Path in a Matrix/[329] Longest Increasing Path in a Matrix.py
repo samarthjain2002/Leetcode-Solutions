@@ -1,6 +1,6 @@
 """
 Accepted
-329 [Medium]
+329 [Hard]
 Runtime: 289 ms, faster than 80.79% of Python3 online submissions for Longest Increasing Path in a Matrix.
 Memory Usage: 17.60 MB, less than 92.34% of Python3 online submissions for Longest Increasing Path in a Matrix.
 """
