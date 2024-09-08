@@ -1,6 +1,6 @@
 """
 Accepted
-725 [Hard]
+725 [Medium]
 Runtime: 44 ms, faster than 19.67% of Python3 online submissions for Split Linked List in Parts.
 Memory Usage:  16.91 MB, less than 22.72% of Python3 online submissions for Split Linked List in Parts.
 """
