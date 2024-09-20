@@ -6,6 +6,9 @@ Memory Usage: 16.78 MB, less than 91.91% of Python3 online submissions for Short
 """
 class Solution:
     def shortestPalindrome(self, s: str) -> str:
+        if not s:
+            return ""
+        
         def checkPalindrome(string):
             temp = string
             temp = temp[ : : -1]
@@ -17,4 +20,3 @@ class Solution:
             prefix = prefix[ : : -1]
             if checkPalindrome(prefix + s):
                 return prefix + s
-        return ""
