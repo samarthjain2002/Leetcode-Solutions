@@ -1,8 +1,8 @@
 """
 Accepted
 731 [Medium]
-Runtime: 173 ms, faster than 73.27% of Python3 online submissions for My Calendar II.
-Memory Usage:  17.47 MB, less than 34.88% of Python3 online submissions for My Calendar II.
+Runtime: 210 ms, faster than 97.40% of Python3 online submissions for My Calendar II.
+Memory Usage:  17.45 MB, less than 45.71% of Python3 online submissions for My Calendar II.
 """
 class MyCalendar:
 
