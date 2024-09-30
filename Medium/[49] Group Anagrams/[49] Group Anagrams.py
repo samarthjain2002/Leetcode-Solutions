@@ -1,8 +1,8 @@
 """
 Accepted
 49 [Medium]
-Runtime: 133 ms, faster than 9.71% of Python3 online submissions for Group Anagrams
-Memory Usage: 22.82 MB, less than 6.49% of Python3 online submissions for Group Anagrams
+Runtime: 133 ms, faster than 9.71% of Python3 online submissions for Group Anagrams.
+Memory Usage: 22.82 MB, less than 6.49% of Python3 online submissions for Group Anagrams.
 """
 #   Without using defaultdict
 class Solution:
@@ -22,8 +22,8 @@ class Solution:
 """
 Accepted
 49 [Medium]
-Runtime: 148 ms, faster than 7.39% of Python3 online submissions for Group Anagrams
-Memory Usage: 23.08 MB, less than 5.98% of Python3 online submissions for Group Anagrams
+Runtime: 148 ms, faster than 7.39% of Python3 online submissions for Group Anagrams.
+Memory Usage: 23.08 MB, less than 5.98% of Python3 online submissions for Group Anagrams.
 """
 #   By using defualtdict imported from collections
 from collections import defaultdict
