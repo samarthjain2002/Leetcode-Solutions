@@ -1,6 +1,6 @@
 """
 Accepted
-2045 [Medium]
+2045 [Hard]
 Runtime: 1720 ms, faster than 91.39% of Python3 online submissions for Second Minimum Time to Reach Destination.
 Memory Usage:  26.38 MB, less than 78.81% of Python3 online submissions for Second Minimum Time to Reach Destination.
 """
