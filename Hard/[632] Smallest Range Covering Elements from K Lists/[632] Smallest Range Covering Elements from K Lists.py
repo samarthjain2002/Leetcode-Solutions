@@ -4,6 +4,8 @@ Accepted
 Runtime: 208 ms, faster than 25.42% of Python3 online submissions for Smallest Range Covering Elements from K Lists.
 Memory Usage: 23.00 MB, less than 94.02% of Python3 online submissions for Smallest Range Covering Elements from K Lists.
 """
+import heapq
+
 class Solution:
     def smallestRange(self, nums: List[List[int]]) -> List[int]:
         k = len(nums)
