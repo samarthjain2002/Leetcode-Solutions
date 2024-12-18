@@ -1,8 +1,8 @@
 """
 Accepted
 146 [Medium]
-Runtime: 1320 ms, faster than 6.80% of Python3 online submissions for LRU Cache.
-Memory Usage:  78.18 MB, less than 18.68% of Python3 online submissions for LRU Cache.
+Runtime: 124 ms, faster than 75.17% of Python3 online submissions for LRU Cache.
+Memory Usage:  78.30 MB, less than 15.34% of Python3 online submissions for LRU Cache.
 """
 class ListNode:
     def __init__(self, key, val, left = None, right = None):
