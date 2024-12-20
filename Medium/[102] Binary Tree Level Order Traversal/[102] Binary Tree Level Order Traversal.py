@@ -1,8 +1,8 @@
 """
 Accepted
 102 [Medium]
-Runtime: 29 ms, faster than 98.29% of Python3 online submissions for Binary Tree Level Order Traversal.
-Memory Usage:  17.21 MB, less than 70.07% of Python3 online submissions for Binary Tree Level Order Traversal.
+Runtime: 29 ms, faster than 9.23% of Python3 online submissions for Binary Tree Level Order Traversal.
+Memory Usage:  17.21 MB, less than 87.55% of Python3 online submissions for Binary Tree Level Order Traversal.
 """
 # Definition for a binary tree node.
 # class TreeNode:
