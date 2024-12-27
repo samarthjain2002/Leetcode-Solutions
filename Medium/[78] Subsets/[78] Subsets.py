@@ -1,7 +1,7 @@
 """
 Accepted
 78 [Medium]
-Runtime: 4528 ms, faster than 40.68% of Python3 online submissions for Subsets.
+Runtime: 0 ms, faster than 100.00% of Python3 online submissions for Subsets.
 Memory Usage:  17.89 MB, less than 7.25% of Python3 online submissions for Subsets.
 """
 class Solution:
