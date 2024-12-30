@@ -1,6 +1,6 @@
 """
 Accepted
-973 [Easy]
+973 [Medium]
 Runtime: 87 ms, faster than 26.61% of Python3 online submissions for K Closest Points to Origin.
 Memory Usage: 23.65 MB, less than 5.14% of Python3 online submissions for K Closest Points to Origin.
 """
