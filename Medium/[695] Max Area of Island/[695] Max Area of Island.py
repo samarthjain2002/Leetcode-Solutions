@@ -12,7 +12,6 @@ class Solution:
         res = 0
 
         def dfs(i, j):
-            global count
             if (i, j) in visited or i == -1 or i == M or j == -1 or j == N or grid[i][j] == 0:
                 return 0
             visited.add((i, j))
