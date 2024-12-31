@@ -39,7 +39,6 @@ class Solution:
 
 
 
-
 """
 Runtime: 0 ms, faster than 100.00% of Python3 online submissions for Permutations.
 Memory Usage: 18.08 MB, less than 6.11% of Python3 online submissions for Permutations.
