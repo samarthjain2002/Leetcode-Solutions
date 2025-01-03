@@ -4,6 +4,7 @@ Accepted
 Runtime: 7 ms, faster than 85.94% of Python3 online submissions for Longest Increasing Subsequence.
 Memory Usage:  18.07 MB, less than 19.42% of Python3 online submissions for Longest Increasing Subsequence.
 """
+# O(nlog(n)) Binary-Search Solution
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
         N = len(s)
@@ -24,6 +25,7 @@ class Solution:
 Runtime: 1794 ms, faster than 48.07% of Python3 online submissions for Longest Increasing Subsequence.
 Memory Usage:  18.25 MB, less than 10.80% of Python3 online submissions for Longest Increasing Subsequence.
 """
+# O(n^2) Dynamic Programming Solution
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
         N = len(nums)
