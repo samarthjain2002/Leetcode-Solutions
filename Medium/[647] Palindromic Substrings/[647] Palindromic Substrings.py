@@ -10,14 +10,16 @@ class Solution:
         res = 0
 
         for i in range(N):
-            left, right = i, i
-            while left > -1 and right < N and s[left] == s[right]:
+            # Odd length
+            left = right = i
+            while left >= 0 and right < N and s[left] == s[right]:
                 res += 1
                 left -= 1
                 right += 1
-        
+
+            # Even length
             left, right = i, i + 1
-            while left > -1 and right < N and s[left] == s[right]:
+            while left >= 0 and right < N and s[left] == s[right]:
                 res += 1
                 left -= 1
                 right += 1    
