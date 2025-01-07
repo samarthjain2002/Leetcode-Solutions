@@ -27,8 +27,8 @@ class Solution:
 
 
 """
-Runtime: 411 ms, faster than 85.90% of Python3 online submissions for Longest Common Subsequence.
-Memory Usage:  42.78 MB, less than 45.28% of Python3 online submissions for Longest Common Subsequence.
+Runtime: 411 ms, faster than 85.79% of Python3 online submissions for Longest Common Subsequence.
+Memory Usage:  42.78 MB, less than 48.14% of Python3 online submissions for Longest Common Subsequence.
 """
 class Solution:
     def longestCommonSubsequence(self, text1: str, text2: str) -> int:
