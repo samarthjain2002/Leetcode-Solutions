@@ -2,7 +2,7 @@
 Accepted
 518 [Medium]
 Runtime: 394 ms, faster than 38.90% of Python3 online submissions for Coin Change II.
-Memory Usage:  48.25 MB, less than 45.03% of Python3 online submissions for Coin Change II.
+Memory Usage: 48.25 MB, less than 45.03% of Python3 online submissions for Coin Change II.
 """
 class Solution:
     def change(self, amount: int, coins: List[int]) -> int:

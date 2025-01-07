@@ -2,7 +2,7 @@
 Accepted
 309 [Medium]
 Runtime: 8 ms, faster than 24.69% of Python3 online submissions for Best Time to Buy and Sell Stock with Cooldown.
-Memory Usage:  18.07 MB, less than 19.42% of Python3 online submissions for Best Time to Buy and Sell Stock with Cooldown.
+Memory Usage: 18.07 MB, less than 19.42% of Python3 online submissions for Best Time to Buy and Sell Stock with Cooldown.
 """
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:

@@ -2,7 +2,7 @@
 Accepted
 494 [Medium]
 Runtime: 191 ms, faster than 30.81% of Python3 online submissions for Target Sum.
-Memory Usage:  38.50 MB, less than 27.86% of Python3 online submissions for Target Sum.
+Memory Usage: 38.50 MB, less than 27.86% of Python3 online submissions for Target Sum.
 """
 class Solution:
     def findTargetSumWays(self, nums: List[int], target: int) -> int:

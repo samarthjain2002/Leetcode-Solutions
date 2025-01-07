@@ -2,7 +2,7 @@
 Accepted
 300 [Medium]
 Runtime: 7 ms, faster than 85.94% of Python3 online submissions for Longest Increasing Subsequence.
-Memory Usage:  18.07 MB, less than 19.42% of Python3 online submissions for Longest Increasing Subsequence.
+Memory Usage: 18.07 MB, less than 19.42% of Python3 online submissions for Longest Increasing Subsequence.
 """
 # O(nlog(n)) Binary-Search Solution
 class Solution:
