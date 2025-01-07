@@ -4,6 +4,7 @@ Accepted
 Runtime: 3 ms, faster than 94.54% of Python3 online submissions for Regular Expression Matching.
 Memory Usage: 18.16 MB, less than 6.82% of Python3 online submissions for Regular Expression Matching.
 """
+# https://thewayofnada.medium.com/how-to-solve-the-burst-balloons-problem-like-a-piece-of-cake-6121f365b1f
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:
         dp = {}
