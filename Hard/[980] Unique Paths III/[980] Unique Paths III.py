@@ -4,7 +4,6 @@ Accepted
 Runtime: 15 ms, faster than 52.35% of Python3 online submissions for Unique Paths III.
 Memory Usage: 17.56 MB, less than 48.42% of Python3 online submissions for Unique Paths III.
 """
-
 class Solution:
     def uniquePathsIII(self, grid: List[List[int]]) -> int:
         M, N = len(grid), len(grid[0])
