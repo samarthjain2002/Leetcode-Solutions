@@ -1,6 +1,6 @@
 """
 Accepted
-338 [Medium]
+338 [Easy]
 Runtime: 3 ms, faster than 94.98% of Python3 online submissions for Counting Bits.
 Memory Usage: 18.39 MB, less than 55.85% of Python3 online submissions for Counting Bits.
 """
