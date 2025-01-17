@@ -2,7 +2,7 @@
 Accepted
 1315 [Medium]
 Runtime: 64 ms, faster than 97.87% of Python3 online submissions for Sum of Nodes with Even-Valued Grandparent.
-Memory Usage:  19.93 MB, less than 90.97% of Python3 online submissions for Sum of Nodes with Even-Valued Grandparent.
+Memory Usage: 19.93 MB, less than 90.97% of Python3 online submissions for Sum of Nodes with Even-Valued Grandparent.
 """
 # Definition for a binary tree node.
 # class TreeNode:

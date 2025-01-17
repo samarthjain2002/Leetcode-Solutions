@@ -2,7 +2,7 @@
 Accepted
 1318 [Medium]
 Runtime: 34 ms, faster than 72.09% of Python3 online submissions for Minimum Flips to Make a OR b Equal to c.
-Memory Usage:  17.67 MB, less than 39.78% of Python3 online submissions for Minimum Flips to Make a OR b Equal to c.
+Memory Usage: 17.67 MB, less than 39.78% of Python3 online submissions for Minimum Flips to Make a OR b Equal to c.
 """
 class Solution:
     def minFlips(self, a: int, b: int, c: int) -> int:
