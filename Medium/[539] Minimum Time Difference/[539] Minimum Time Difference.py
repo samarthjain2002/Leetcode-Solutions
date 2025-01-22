@@ -2,7 +2,7 @@
 Accepted
 539 [Medium]
 Runtime: 67 ms, faster than 73.57% of Python3 online submissions for Minimum Time Difference.
-Memory Usage:  19.53 MB, less than 79.74% of Python3 online submissions for Minimum Time Difference.
+Memory Usage: 19.53 MB, less than 79.74% of Python3 online submissions for Minimum Time Difference.
 """
 class Solution:
     def findMinDifference(self, timePoints: List[str]) -> int:
