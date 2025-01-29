@@ -1,8 +1,8 @@
 """
 Accepted
 684 [Medium]
-Runtime: 6 ms, faster than 33.26% of Python3 online submissions for Redundant Connection.
-Memory Usage: 18.46 MB, less than 8.58% of Python3 online submissions for Redundant Connection.
+Runtime: 0 ms, faster than 100.00% of Python3 online submissions for Redundant Connection.
+Memory Usage: 18.44 MB, less than 22.29% of Python3 online submissions for Redundant Connection.
 """
 class Solution:
     def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:
@@ -13,9 +13,9 @@ class Solution:
         rank = [1] * (n + 1)
 
         def find(node):
-            while par[node] != node:
-                node = par[node]
-            return node
+            if par[node] != node:
+                par[node] = find(par[node])     # Path Compression
+            return par[node]
 
         def union(n1, n2):
             p1, p2 = find(n1), find(n2)
