@@ -6,6 +6,7 @@ Memory Usage:  26.38 MB, less than 78.81% of Python3 online submissions for Seco
 """
 from collections import defaultdict
 
+
 class Solution:
     def secondMinimum(self, n: int, edges: List[List[int]], time: int, change: int) -> int:
         adj = defaultdict(list)
@@ -30,6 +31,6 @@ class Solution:
                         q.append(nei)
                         nei_times.append(cur_time)
 
-            if (cur_time //change) % 2 == 1:
+            if (cur_time // change) % 2 == 1:
                 cur_time += change - (cur_time % change)
             cur_time += time
