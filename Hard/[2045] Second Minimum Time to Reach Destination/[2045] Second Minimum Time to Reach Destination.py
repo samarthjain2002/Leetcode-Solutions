@@ -4,11 +4,14 @@ Accepted
 Runtime: 1720 ms, faster than 91.39% of Python3 online submissions for Second Minimum Time to Reach Destination.
 Memory Usage:  26.38 MB, less than 78.81% of Python3 online submissions for Second Minimum Time to Reach Destination.
 """
+
 from collections import defaultdict
 
 
 class Solution:
-    def secondMinimum(self, n: int, edges: List[List[int]], time: int, change: int) -> int:
+    def secondMinimum(
+        self, n: int, edges: List[List[int]], time: int, change: int
+    ) -> int:
         adj = defaultdict(list)
         for a, b in edges:
             adj[a].append(b)
@@ -27,7 +30,9 @@ class Solution:
                     res = cur_time
                 for nei in adj[node]:
                     nei_times = visit_times[nei]
-                    if len(nei_times) == 0 or (len(nei_times) == 1 and nei_times[0] != cur_time):
+                    if len(nei_times) == 0 or (
+                        len(nei_times) == 1 and nei_times[0] != cur_time
+                    ):
                         q.append(nei)
                         nei_times.append(cur_time)
 
