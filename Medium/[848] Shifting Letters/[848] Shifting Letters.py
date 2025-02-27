@@ -2,7 +2,7 @@
 Accepted
 848 [Medium]
 Runtime: 601 ms, faster than 31.25% of Python3 online submissions for Shifting Letters.
-Memory Usage:  30.29 MB, less than 28.92% of Python3 online submissions for Shifting Letters.
+Memory Usage: 30.29 MB, less than 28.92% of Python3 online submissions for Shifting Letters.
 """
 class Solution:
     def shiftingLetters(self, s: str, shifts: List[int]) -> str:

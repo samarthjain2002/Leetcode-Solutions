@@ -2,7 +2,7 @@
 Accepted
 826 [Medium]
 Runtime: 295 ms, faster than 59.71% of Python3 online submissions for Most Profit Assigning Work.
-Memory Usage:  18.74 MB, less than 100.00% of Python3 online submissions for Most Profit Assigning Work.
+Memory Usage: 18.74 MB, less than 100.00% of Python3 online submissions for Most Profit Assigning Work.
 """
 class Solution:
     def maxProfitAssignment(self, difficulty: List[int], profit: List[int], worker: List[int]) -> int:

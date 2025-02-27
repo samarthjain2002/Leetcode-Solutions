@@ -2,7 +2,7 @@
 Accepted
 841 [Medium]
 Runtime: 64 ms, faster than 64.09% of Python3 online submissions for Keys and Rooms.
-Memory Usage:  17.16 MB, less than 13.60% of Python3 online submissions for Keys and Rooms.
+Memory Usage: 17.16 MB, less than 13.60% of Python3 online submissions for Keys and Rooms.
 """
 class Solution:
     def canVisitAllRooms(self, rooms: List[List[int]]) -> bool:
