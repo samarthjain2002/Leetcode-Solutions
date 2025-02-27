@@ -4,6 +4,9 @@ Accepted
 Runtime: 793 ms, faster than 74.50% of Python3 online submissions for Length of Longest Fibonacci Subsequence.
 Memory Usage: 17.93 MB, less than 80.79% of Python3 online submissions for Length of Longest Fibonacci Subsequence.
 """
+# Bruteforce
+# TC: O(n^2(log2(n)))
+# SC: O(n)
 class Solution:
     def lenLongestFibSubseq(self, arr: List[int]) -> int:
         hashSet = set(arr)
@@ -22,6 +25,10 @@ class Solution:
         return res
 
 
+
+# Dynamic Programming
+# TC: O(n^2)
+# SC: O(n^2)
 """
 Runtime: 1146 ms, faster than 41.72% of Python3 online submissions for Length of Longest Fibonacci Subsequence.
 Memory Usage:  25.56 MB, less than 26.49% of Python3 online submissions for Length of Longest Fibonacci Subsequence.

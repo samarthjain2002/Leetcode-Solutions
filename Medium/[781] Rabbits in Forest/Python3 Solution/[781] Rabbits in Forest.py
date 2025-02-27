@@ -2,7 +2,7 @@
 Accepted
 781 [Medium]
 Runtime: 38 ms, faster than 90.40% of Python3 online submissions for Rabbits in Forest.
-Memory Usage:  16.54 MB, less than 96.56% of Python3 online submissions for Rabbits in Forest.
+Memory Usage: 16.54 MB, less than 96.56% of Python3 online submissions for Rabbits in Forest.
 """
 class Solution:
     def numRabbits(self, answers: List[int]) -> int:
