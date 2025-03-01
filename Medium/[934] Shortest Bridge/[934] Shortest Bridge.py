@@ -47,3 +47,66 @@ class Solution:
                 if 0 <= nr < len(grid) and 0 <= nc < len(grid[0]) and grid[nr][nc] != 1 and (nr, nc) not in visited:
                     visited.add((nr, nc))
                     queue.append((nr, nc, moves + 1))
+
+
+
+"""
+Runtime: 164 ms, faster than 13.14% of Python3 online submissions for Shortest Bridge.
+Memory Usage: 22.69 MB, less than 5.86% of Python3 online submissions for Shortest Bridge.
+"""
+# Bi-directional BFS (BFS from both islands)
+class Solution:
+    def shortestBridge(self, grid):
+        queue = deque()
+
+        directions = [(0, 1), (0, -1), (1, 0), (-1, 0)]
+
+        visited = set()
+        def dfs(i, j, islandID):
+            if grid[i][j] == 0 or (i, j) in visited:
+                return
+
+            visited.add((i, j))
+            grid[i][j] = islandID
+
+            # Enque only the boundary land cells (beach)
+            for dr, dc in directions:
+                nr, nc = i + dr, j + dc
+                if 0 <= nr < len(grid) and 0 <= nc < len(grid[0]) and grid[nr][nc] == 0:
+                    queue.append((i, j, 0, islandID))
+                    break
+            
+            for dr, dc in directions:
+                nr, nc = i + dr, j + dc
+                if 0 <= nr < len(grid) and 0 <= nc < len(grid[0]):
+                    dfs(nr, nc, islandID)
+
+
+        # Mark islands
+        islandID = 1
+        for i in range(len(grid)):
+            for j in range(len(grid[0])):
+                if grid[i][j] == 1 and (i, j) not in visited:
+                    dfs(i, j, islandID)
+                    islandID += 1
+
+
+        # Bi-directional BFS (BFS from both islands)
+        dist_to_this_cell = {}
+        # Visited now has all the land cells
+        while queue:
+            i, j, distance, islandID = queue.popleft()
+
+            for dr, dc in directions:
+                nr, nc = i + dr, j + dc
+                # Bridge is complete
+                if (0 <= nr < len(grid) and 0 <= nc < len(grid[0]) and ((grid[nr][nc] == 1 and islandID == 2) or (grid[nr][nc] == 2 and islandID == 1))):
+                    return distance + dist_to_this_cell[(nr, nc)]
+
+                # Building bridges from both sides
+                if (0 <= nr < len(grid) and 0 <= nc < len(grid[0]) and
+                    (nr, nc) not in visited):
+                    grid[nr][nc] = islandID
+                    visited.add((nr, nc))
+                    queue.append((nr, nc, distance + 1, islandID))
+                    dist_to_this_cell[(nr, nc)] = distance + 1
