@@ -2,7 +2,7 @@
 Accepted
 931 [Medium]
 Runtime: 106 ms, faster than 98.18% of Python3 online submissions for Minimum Falling Path Sum.
-Memory Usage:  17.66 MB, less than 66.28% of Python3 online submissions for Minimum Falling Path Sum.
+Memory Usage: 17.66 MB, less than 66.28% of Python3 online submissions for Minimum Falling Path Sum.
 """
 class Solution:
     def minFallingPathSum(self, matrix: List[List[int]]) -> int:
