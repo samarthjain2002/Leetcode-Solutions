@@ -4,7 +4,7 @@ Accepted
 Runtime: 50 ms, faster than 46.76% of Python3 online submissions for Linked List Cycle.
 Memory Usage: 19.85 MB, less than 58.28% of Python3 online submissions for Linked List Cycle.
 """
-# TC: O(1)
+# SC: O(1)
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -32,13 +32,13 @@ class Solution:
 Runtime: 50 ms, faster than 24.76% of Python3 online submissions for Linked List Cycle.
 Memory Usage: 19.66 MB, less than 6.16% of Python3 online submissions for Linked List Cycle.
 """
+# SC: O(n)
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
 #         self.val = x
 #         self.next = None
 
-# SC: O(n)
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
         hashSet = set()
