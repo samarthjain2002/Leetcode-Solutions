@@ -1,3 +1,7 @@
+"""
+[261] Graph Valid Tree
+neetcode.io
+"""
 class Solution:
     def validTree(self, n: int, edges: List[List[int]]) -> bool:
         if n != len(edges) + 1:
