@@ -2,7 +2,7 @@
 Accepted
 1765 [Medium]
 Runtime: 1007 ms, faster than 55.29% of Python3 online submissions for Map of Highest Peak.
-Memory Usage:  84.90 MB, less than 53.88% of Python3 online submissions for Map of Highest Peak.
+Memory Usage: 84.90 MB, less than 53.88% of Python3 online submissions for Map of Highest Peak.
 """
 class Solution:
     def highestPeak(self, isWater: List[List[int]]) -> List[List[int]]:
