@@ -14,18 +14,18 @@ class Solution:
     def bstFromPreorder(self, preorder: List[int]) -> Optional[TreeNode]:
         root = TreeNode(preorder[0])
 
-        def dfs(root, node):
+        def insertNode(root, node):
             if node < root.val:
                 if not root.left:
                     root.left = TreeNode(node)
                 else:
-                    dfs(root.left, node)
+                    insertNode(root.left, node)
             else:
                 if not root.right:
                     root.right = TreeNode(node)
                 else:
-                    dfs(root.right, node)
+                    insertNode(root.right, node)
         
         for node in preorder[1 : ]:
-            dfs(root, node)
+            insertNode(root, node)
         return root
