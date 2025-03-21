@@ -1,8 +1,8 @@
 """
 Accepted
 2096 [Medium]
-Runtime: 292 ms, faster than 58.39% of Python3 online submissions for Step-By-Step Directions From a Binary Tree Node to Another
-Memory Usage:  53.26 MB, less than 34.23% of Python3 online submissions for Step-By-Step Directions From a Binary Tree Node to Another.
+Runtime: 292 ms, faster than 58.39% of Python3 online submissions for Step-By-Step Directions From a Binary Tree Node to Another.
+Memory Usage: 53.26 MB, less than 34.23% of Python3 online submissions for Step-By-Step Directions From a Binary Tree Node to Another.
 """
 # Definition for a binary tree node.
 # class TreeNode:
