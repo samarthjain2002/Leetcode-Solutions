@@ -1,4 +1,3 @@
-
 """
 Accepted
 752 [Medium]
