@@ -1,6 +1,25 @@
 """
 Accepted
 2873 [Easy]
+Runtime: 1 ms, faster than 83.82% of Python3 online submissions for Maximum Value of an Ordered Triplet I.
+Memory Usage: 17.68 MB, less than 82.11% of Python3 online submissions for Maximum Value of an Ordered Triplet I.
+"""
+# TC: O(n) 
+class Solution:
+    def maximumTripletValue(self, nums: List[int]) -> int:
+        prefixMax = nums[0]
+        maxDiff = 0
+        res = 0
+        for k in range(1, len(nums)):
+            res = max(res, maxDiff * nums[k])
+            
+            prefixMax = max(prefixMax, nums[k])
+            maxDiff = max(maxDiff, prefixMax - nums[k])
+        return res
+
+
+
+"""
 Runtime: 12 ms, faster than 58.58% of Python3 online submissions for Maximum Value of an Ordered Triplet I.
 Memory Usage: 17.77 MB, less than 54.41% of Python3 online submissions for Maximum Value of an Ordered Triplet I.
 """
