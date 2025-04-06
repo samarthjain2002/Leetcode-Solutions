@@ -21,3 +21,34 @@ class Solution:
                 res = dp[i]
 
         return res
+
+
+
+"""
+Runtime: 2005 ms, faster than 5.88% of Python3 online submissions for Largest Divisible Subset.
+Memory Usage:  154.92 MB, less than 5.08% of Python3 online submissions for Largest Divisible Subset.
+"""
+# DFS + Memoization approach
+# TC: O(n^2)
+# SC: O(n^2)
+class Solution:
+    def largestDivisibleSubset(self, nums: List[int]) -> List[int]:
+        nums.sort()
+
+        cache = {}
+        def dfs(i, prev):
+            if i == len(nums):
+                return []
+            if (i, prev) in cache:
+                return cache[(i, prev)]
+
+            res = dfs(i + 1, prev)
+            if nums[i] % prev == 0:
+                temp = [nums[i]] + dfs(i + 1, nums[i])
+                res = temp if len(temp) > len(res) else res
+
+            cache[(i, prev)] = res
+            return res
+
+
+        return dfs(0, 1)
