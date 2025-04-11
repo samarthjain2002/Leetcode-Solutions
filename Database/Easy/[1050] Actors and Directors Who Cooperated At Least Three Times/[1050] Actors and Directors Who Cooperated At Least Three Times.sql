@@ -1,6 +1,6 @@
 /*
 Accepted
-1050 [Medium]
+1050 [Easy]
 Runtime: 290 ms, faster than 94.84% of PostgreSQL online submissions for Actors and Directors Who Cooperated At Least Three Times.
 */
 
