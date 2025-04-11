@@ -1,7 +1,7 @@
 /*
 Accepted
 1204 [Medium]
-Runtime: 471 ms, faster than 86.89% of MySQL online submissions for Last Person to Fit in the Bus.
+Runtime: 471 ms, faster than 86.89% of PostgreSQL online submissions for Last Person to Fit in the Bus.
 */
 
 -- Write your PostgreSQL query statement below
