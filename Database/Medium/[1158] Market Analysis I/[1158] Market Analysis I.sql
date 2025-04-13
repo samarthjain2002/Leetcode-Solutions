@@ -1,6 +1,6 @@
 /*
 Accepted
-1158 [Easy]
+1158 [Medium]
 Runtime: 509 ms, faster than 96.22% of PostgreSQL online submissions for Market Analysis I.
 */
 
