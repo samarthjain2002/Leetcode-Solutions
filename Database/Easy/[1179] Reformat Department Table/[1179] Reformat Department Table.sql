@@ -1,7 +1,7 @@
 /*
 Accepted
 1179 [Easy]
-Runtime: 411 ms, faster than 75.54% of Oracle online submissions for Reformat Department Table.
+Runtime: 411 ms, faster than 75.54% of PostgreSQL online submissions for Reformat Department Table.
 */
 
 -- Write your PostgreSQL query statement below
