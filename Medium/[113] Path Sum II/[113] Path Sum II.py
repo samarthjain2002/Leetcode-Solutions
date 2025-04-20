@@ -2,7 +2,7 @@
 Accepted
 113 [Medium]
 Runtime: 45 ms, faster than 39.43% of Python3 online submissions for Path Sum II.
-Memory Usage:  17.45 MB, less than 53.17% of Python3 online submissions for Path Sum II.
+Memory Usage: 17.45 MB, less than 53.17% of Python3 online submissions for Path Sum II.
 """
 # Definition for a binary tree node.
 # class TreeNode:
