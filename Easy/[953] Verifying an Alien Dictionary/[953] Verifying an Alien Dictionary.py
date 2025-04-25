@@ -1,7 +1,7 @@
 """
 Accepted
 953 [Easy]
-Runtime: 6 ms, faster than 16.78% of Python3 online submissions for Verifying an Alien Dictionary.
+Runtime: 0 ms, faster than 100.00% of Python3 online submissions for Verifying an Alien Dictionary.
 Memory Usage: 17.74 MB, less than 74.95% of Python3 online submissions for Verifying an Alien Dictionary.
 """
 class Solution:
