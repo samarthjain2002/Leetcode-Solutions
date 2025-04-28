@@ -2,7 +2,7 @@
 Accepted
 2302 [Hard]
 Runtime: 199 ms, faster than 8.58% of Python3 online submissions for Count Subarrays With Score Less Than K.
-Memory Usage: 30.74 MB, less than 93.76% of Python3 online submissions for Count Subarrays With Score Less Than K.
+Memory Usage: 30.73 MB, less than 14.30% of Python3 online submissions for Count Subarrays With Score Less Than K.
 """
 class Solution:
     def countSubarrays(self, nums: List[int], k: int) -> int:
