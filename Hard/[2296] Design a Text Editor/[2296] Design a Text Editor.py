@@ -2,7 +2,7 @@
 Accepted
 2296 [Hard]
 Runtime: 1946 ms, faster than 17.63% of Python3 online submissions for Design a Text Editor.
-Memory Usage:  30.74 MB, less than 93.76% of Python3 online submissions for Design a Text Editor.
+Memory Usage: 30.74 MB, less than 93.76% of Python3 online submissions for Design a Text Editor.
 """
 class TextEditor:
 
