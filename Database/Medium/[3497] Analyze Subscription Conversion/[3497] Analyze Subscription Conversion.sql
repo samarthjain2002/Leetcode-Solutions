@@ -1,6 +1,20 @@
 /*
 Accepted
 3497 [Medium]
+Runtime: 237 ms, faster than 31.07% of PostgresQL online submissions for Analyze Subscription Conversion.
+*/
+
+-- Write your PostgreSQL query statement below
+SELECT user_id,
+ROUND(AVG(CASE WHEN activity_type = 'free_trial' THEN activity_duration END), 2) AS trial_avg_duration,
+ROUND(AVG(CASE WHEN activity_type = 'paid' THEN activity_duration END), 2) AS paid_avg_duration
+FROM UserActivity
+WHERE activity_type IN ('free_trial', 'paid')
+GROUP BY user_id HAVING COUNT(DISTINCT(activity_type)) = 2
+
+
+
+/*
 Runtime: 271 ms, faster than 15.65% of PostgresQL online submissions for Analyze Subscription Conversion.
 */
 
