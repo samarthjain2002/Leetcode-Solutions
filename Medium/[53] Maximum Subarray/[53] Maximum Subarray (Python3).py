@@ -36,7 +36,6 @@ class Solution:
                 startIndex = i + 1
                 continue
 
-            if i - startIndex < len(nums):
-                res = max(res, count)
+            res = max(res, count)
 
         return res
