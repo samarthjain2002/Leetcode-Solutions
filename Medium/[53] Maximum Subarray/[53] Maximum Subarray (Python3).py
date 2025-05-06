@@ -14,3 +14,29 @@ class Solution:
             maxSum = max(maxSum, curSum)
             
         return maxSum
+
+
+
+"""
+Runtime: 77 ms, faster than 47.50% of Python3 online submissions for Maximum Subarray.
+Memory Usage: 32.89 MB, less than 23.40% of Python3 online submissions for Maximum Subarray.
+"""
+class Solution:
+    def maxSubArray(self, nums: List[int]) -> int:
+        if max(nums) < 0:
+            return max(nums)
+            
+        res = float("-inf")
+        count = 0
+        startIndex = 0
+        for i in range(len(nums)):
+            count += nums[i % len(nums)]
+            if count < 0:
+                count = 0
+                startIndex = i + 1
+                continue
+
+            if i - startIndex < len(nums):
+                res = max(res, count)
+
+        return res
