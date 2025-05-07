@@ -2,7 +2,7 @@
 Accepted
 714 [Medium]
 Runtime: 219 ms, faster than 33.68% of Python3 online submissions for Best Time to Buy and Sell Stock with Transaction Fee.
-Memory Usage:  27.27 MB, less than 29.21% of Python3 online submissions for Best Time to Buy and Sell Stock with Transaction Fee.
+Memory Usage: 27.27 MB, less than 29.21% of Python3 online submissions for Best Time to Buy and Sell Stock with Transaction Fee.
 """
 """
 prices = [1,3,2,8], fee = 2
