@@ -2,7 +2,7 @@
 Accepted
 91 [Medium]
 Runtime: 0 ms, faster than 100.00% of Python3 online submissions for Decode Ways.
-Memory Usage:  17.98 MB, less than 8.06% of Python3 online submissions for Decode Ways.
+Memory Usage: 17.98 MB, less than 8.06% of Python3 online submissions for Decode Ways.
 """
 class Solution:
     def numDecodings(self, s: str) -> int:
