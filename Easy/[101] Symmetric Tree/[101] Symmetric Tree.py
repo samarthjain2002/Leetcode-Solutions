@@ -10,6 +10,8 @@ Memory Usage: 16.63 MB, less than 10.45% of Python3 online submissions for Symme
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
+# DFS approach
 class Solution:
     def isSymmetric(self, root: Optional[TreeNode]) -> bool:
         if not root.left and not root.right:
@@ -40,6 +42,8 @@ Memory Usage: 17.74 MB, less than 83.63% of Python3 online submissions for Symme
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
+# BFS approach
 class Solution:
     def isSymmetric(self, root: Optional[TreeNode]) -> bool:
         # BFS approach
