@@ -2,7 +2,7 @@
 Accepted
 355 [Medium]
 Runtime: 15 ms, faster than 30.90% of Python3 online submissions for Design Twitter.
-Memory Usage:  27.78 MB, less than 8.27% of Python3 online submissions for Design Twitter.
+Memory Usage: 27.78 MB, less than 8.27% of Python3 online submissions for Design Twitter.
 """
 class Twitter:
 
