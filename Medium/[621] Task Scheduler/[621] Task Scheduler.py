@@ -2,7 +2,7 @@
 Accepted
 621 [Medium]
 Runtime: 140 ms, faster than 44.46% of Python3 online submissions for Task Scheduler.
-Memory Usage:  19.26 MB, less than 12.47% of Python3 online submissions for Task Scheduler.
+Memory Usage: 19.26 MB, less than 12.47% of Python3 online submissions for Task Scheduler.
 """
 class Solution:
     def leastInterval(self, tasks: List[str], n: int) -> int:
