@@ -6,28 +6,37 @@ Memory Usage: 16.44 MB, less than 93.30% of Python3 online submissions for Reorg
 """
 class Solution:
     def reorganizeString(self, s: str) -> str:
-        hashMap = defaultdict(int)
+        # Build charMap
+        charFreq = defaultdict(int)
         for char in s:
-            hashMap[char] += 1
-        
-        maxHeap = []
-        for key, val in hashMap.items():
-            heapq.heappush(maxHeap, (-val, key))
+            charFreq[char] += 1
 
+        # Add all frequency to max heap
+        maxHeap = []
+        for char, freq in charFreq.items():
+            heapq.heappush(maxHeap, (-freq, char))
+
+        # Build res
         res = ""
         while maxHeap:
             count, char = heapq.heappop(maxHeap)
-            if len(res) >= 1 and res[-1] == char:
+            if res and res[-1] == char:
+                # If there is no other character
                 if not maxHeap:
                     return ""
+
                 count2, char2 = heapq.heappop(maxHeap)
                 res += char2
-                count2 += 1
+                count2 += 1     # Since count is -ve of actual count
+                # If count2 is not 0
                 if count2:
                     heapq.heappush(maxHeap, (count2, char2))
             else:
                 res += char
                 count += 1
+
+            # If count is not 0
             if count:
                 heapq.heappush(maxHeap, (count, char))
+                
         return res
