@@ -1,6 +1,46 @@
 """
 Accepted
 3356 [Medium]
+Runtime: 153 ms, faster than 78.09% of Python3 online submissions for Zero Array Transformation II.
+Memory Usage: 63.65 MB, less than 70.00% of Python3 online submissions for Zero Array Transformation II.
+"""
+# Difference Array
+# TC: O(n + q), SC: O(n)
+class Solution:
+    def minZeroArray(self, nums: List[int], queries: List[List[int]]) -> int:
+        queryPos = 0
+        diff = [0] * len(nums)      # Forward Difference Array
+        curSum = 0
+
+        # Loop until each element becomes 0
+        for numPos in range(len(nums)):
+            # Find query which makes nums[numPos] = 0
+            while curSum + diff[numPos] < nums[numPos]:
+                # Cannot make array zero after processing all the queries
+                if queryPos == len(queries):
+                    return -1
+
+                left, right, val = queries[queryPos]
+                queryPos += 1
+
+                # If the query cannot make present or future elements 0
+                if right < numPos:
+                    continue
+
+                # Only make the elements in present or future to 0
+                left = max(left, numPos)
+                diff[left] += val
+                if right < len(nums) - 1:
+                    diff[right + 1] -= val
+
+            # Add the difference
+            curSum += diff[numPos]
+
+        return queryPos
+
+
+
+"""
 Runtime: 1238 ms, faster than 22.40% of Python3 online submissions for Zero Array Transformation II.
 Memory Usage: 144.67 MB, less than 30.47% of Python3 online submissions for Zero Array Transformation II.
 """
