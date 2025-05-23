@@ -1,6 +1,26 @@
 """
 Accepted
 841 [Medium]
+Runtime: 0 ms, faster than 100.00% of Python3 online submissions for Keys and Rooms.
+Memory Usage: 18.15 MB, less than 74.04% of Python3 online submissions for Keys and Rooms.
+"""
+class Solution:
+    def canVisitAllRooms(self, rooms: List[List[int]]) -> bool:
+        visited = set()
+        def dfs(room):
+            if room in visited:
+                return
+            visited.add(room)
+            
+            for key in rooms[room]:
+                dfs(key)
+
+        dfs(0)
+        return len(visited) == len(rooms)
+
+
+
+"""
 Runtime: 64 ms, faster than 64.09% of Python3 online submissions for Keys and Rooms.
 Memory Usage: 17.16 MB, less than 13.60% of Python3 online submissions for Keys and Rooms.
 """
