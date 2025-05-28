@@ -2,7 +2,7 @@
 Accepted
 162 [Medium]
 Runtime: 59 ms, faster than 36.27% of Python3 online submissions for Find Peak Element.
-Memory Usage:  20.48 MB, less than 62.18% of Python3 online submissions for Find Peak Element.
+Memory Usage: 20.48 MB, less than 62.18% of Python3 online submissions for Find Peak Element.
 """
 # Binary Search approach
 # TC: O(logn), SC: O(1)
