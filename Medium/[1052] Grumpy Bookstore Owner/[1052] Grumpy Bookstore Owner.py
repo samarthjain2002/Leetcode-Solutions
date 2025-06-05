@@ -2,7 +2,7 @@
 Accepted
 1052 [Medium]
 Runtime: 221 ms, faster than 36.28% of Python3 online submissions for Grumpy Bookstore Owner.
-Memory Usage:  18.89 MB, less than 64.93% of Python3 online submissions for Grumpy Bookstore Owner.
+Memory Usage: 18.89 MB, less than 64.93% of Python3 online submissions for Grumpy Bookstore Owner.
 """
 class Solution:
     def maxSatisfied(self, customers: List[int], grumpy: List[int], minutes: int) -> int:
