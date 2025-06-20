@@ -2,7 +2,7 @@
 Accepted
 2285 [Medium]
 Runtime: 1336 ms, faster than 20.08% of Python3 online submissions for Maximum Total Importance of Roads.
-Memory Usage:  44.67 MB, less than 20.08% of Python3 online submissions for Maximum Total Importance of Roads.
+Memory Usage: 44.67 MB, less than 20.08% of Python3 online submissions for Maximum Total Importance of Roads.
 """
 class Solution:
     def maximumImportance(self, n: int, roads: List[List[int]]) -> int:
