@@ -1,6 +1,6 @@
 """
 Accepted
-2300 [Easy]
+2300 [Medium]
 Runtime: 1156 ms, faster than 60.44% of Python3 online submissions for Successful Pairs of Spells and Potions.
 Memory Usage: 40.11 MB, less than 13.93% of Python3 online submissions for Successful Pairs of Spells and Potions.
 """
