@@ -21,6 +21,7 @@ class Solution:
 
 
 
+# MLE (Memory Limit Exceeded)
 # Dynamic Programming + Memoization approach
 #TC: O(n * k), SC: O(n * k)
 class Solution:
@@ -52,6 +53,7 @@ class Solution:
 
 
 
+# TLE (Time Limit Exceeded)
 # Recursion approach
 # TC: O(2^n * n), SC: O(n)
 class Solution:
