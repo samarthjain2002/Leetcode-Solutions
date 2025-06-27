@@ -1,23 +1,19 @@
 """
 Accepted
 20 [Easy]
-Runtime: 34 ms, faster than 82.22% of Python3 online submissions for Valid Parentheses.
-Memory Usage:  17.55 MB, less than 9.12% of Python3 online submissions for Valid Parentheses.
+Runtime: 0 ms, faster than 100.00% of Python3 online submissions for Valid Parentheses.
+Memory Usage: 18.04 MB, less than 9.96% of Python3 online submissions for Valid Parentheses.
 """
 class Solution:
     def isValid(self, s: str) -> bool:
-        hashMap = {')': '(', '}': '{', ']': '['}
+        counterPart = {')': '(', '}': '{', ']': '['}
         stack = []
         for char in s:
-            if not stack:
-                stack.append(char)
-            else:
-                if char in hashMap and stack[-1] == hashMap[char]:
-                    stack.pop()
+            if char in ")]}":
+                if not stack or stack[-1] != counterPart[char]:
+                    return False
                 else:
-                    stack.append(char)
-
-        if stack:
-            return False
-        else:
-            return True
+                    stack.pop()
+            else:
+                stack.append(char)
+        return not stack
