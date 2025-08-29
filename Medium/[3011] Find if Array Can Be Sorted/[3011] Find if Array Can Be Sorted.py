@@ -2,7 +2,7 @@
 Accepted
 3011 [Medium]
 Runtime: 13 ms, faster than 45.45% of Python3 online submissions for Find if Array Can Be Sorted.
-Memory Usage:  16.78 MB, less than 23.35% of Python3 online submissions for Find if Array Can Be Sorted.
+Memory Usage: 16.78 MB, less than 23.35% of Python3 online submissions for Find if Array Can Be Sorted.
 """
 class Solution:
     def canSortArray(self, nums: List[int]) -> bool:
