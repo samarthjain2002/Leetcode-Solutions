@@ -2,7 +2,7 @@
 Accepted
 37 [Hard]
 Runtime: 164 ms, faster than 65.56% of Python3 online submissions for Sudoku Solver.
-Memory Usage:  16.77 MB, less than 28.84% of Python3 online submissions for Sudoku Solver.
+Memory Usage: 16.77 MB, less than 28.84% of Python3 online submissions for Sudoku Solver.
 """
 class Solution:
     def solveSudoku(self, board: List[List[str]]) -> None:
