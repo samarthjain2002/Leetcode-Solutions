@@ -2,7 +2,7 @@
 Accepted
 165 [Medium]
 Runtime: 30 ms, faster than 85.86% of Python3 online submissions for Compare Version Numbers.
-Memory Usage:  16.59 MB, less than 49.32% of Python3 online submissions for Compare Version Numbers.
+Memory Usage: 16.59 MB, less than 49.32% of Python3 online submissions for Compare Version Numbers.
 """
 class Solution:
     def compareVersion(self, version1: str, version2: str) -> int:
