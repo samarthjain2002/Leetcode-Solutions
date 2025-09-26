@@ -2,7 +2,7 @@
 Accepted
 583 [Medium]
 Runtime: 190 ms, faster than 55.20% of Python3 online submissions for Delete Operation for Two Strings.
-Memory Usage:  18.40 MB, less than 86.74% of Python3 online submissions for Delete Operation for Two Strings.
+Memory Usage: 18.40 MB, less than 86.74% of Python3 online submissions for Delete Operation for Two Strings.
 """
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
