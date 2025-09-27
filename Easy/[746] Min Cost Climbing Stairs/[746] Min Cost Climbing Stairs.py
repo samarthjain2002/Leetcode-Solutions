@@ -2,7 +2,7 @@
 Accepted
 746 [Easy]
 Runtime: 55 ms, faster than 78.39% of Python3 online submissions for Min Cost Climbing Stairs.
-Memory Usage:  17.56 MB, less than 27.29% of Python3 online submissions for Min Cost Climbing Stairs.
+Memory Usage: 17.56 MB, less than 27.29% of Python3 online submissions for Min Cost Climbing Stairs.
 """
 class Solution:
     def minCostClimbingStairs(self, cost: List[int]) -> int:
