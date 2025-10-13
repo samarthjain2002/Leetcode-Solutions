@@ -1,8 +1,8 @@
 """
 Accepted
 2264 [Easy]
-Runtime: 0 ms, faster than 100.00% of Java online submissions for Largest 3-Same-Digit Number in String.
-Memory Usage: 17.84 MB, less than 39.13% of Java online submissions for Largest 3-Same-Digit Number in String.
+Runtime: 0 ms, faster than 100.00% of Python3 online submissions for Largest 3-Same-Digit Number in String.
+Memory Usage: 17.84 MB, less than 39.13% of Python3 online submissions for Largest 3-Same-Digit Number in String.
 """
 class Solution:
     def largestGoodInteger(self, num: str) -> str:
@@ -16,8 +16,8 @@ class Solution:
 
 
 """
-Runtime: 38 ms, faster than 79.71% of Java online submissions for Largest 3-Same-Digit Number in String.
-Memory Usage: 16.25 MB, less than 59.27% of Java online submissions for Largest 3-Same-Digit Number in String.
+Runtime: 38 ms, faster than 79.71% of Python3 online submissions for Largest 3-Same-Digit Number in String.
+Memory Usage: 16.25 MB, less than 59.27% of Python3 online submissions for Largest 3-Same-Digit Number in String.
 """
 class Solution:
     def largestGoodInteger(self, num: str) -> str:
