@@ -2,7 +2,7 @@
 Accepted
 1926 [Medium]
 Runtime: 103 ms, faster than 33.37% of Python3 online submissions for Nearest Exit from Entrance in Maze.
-Memory Usage:  19.98 MB, less than 23.86% of Python3 online submissions for Nearest Exit from Entrance in Maze.
+Memory Usage: 19.98 MB, less than 23.86% of Python3 online submissions for Nearest Exit from Entrance in Maze.
 """
 class Solution:
     def nearestExit(self, maze: List[List[str]], entrance: List[int]) -> int:
