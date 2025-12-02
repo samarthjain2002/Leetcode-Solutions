@@ -2,7 +2,7 @@
 Accepted
 3623 [Medium]
 Runtime: 103 ms, faster than 12.09% of Python3 online submissions for Count Number of Trapezoids I.
-Memory Usage: 63.73 MB, less than 26.19% of Python3 online submissions for Power Grid Maintenance.
+Memory Usage: 63.73 MB, less than 26.19% of Python3 online submissions for Count Number of Trapezoids I.
 """
 class Solution:
     def countTrapezoids(self, points: List[List[int]]) -> int:
