@@ -1,6 +1,21 @@
 """
 Accepted
 1266 [Easy]
+Runtime: 0 ms, faster than 100.00% of Python3 online submissions for Minimum Time Visiting All Points.
+Memory Usage: 19.37 MB, less than 5.66% of Python3 online submissions for Minimum Time Visiting All Points.
+"""
+class Solution:
+    def minTimeToVisitAllPoints(self, points: List[List[int]]) -> int:
+        res = 0
+        for i in range(len(points) - 1):
+            cx, cy = points[i]
+            dx, dy = points[i + 1]
+            res += max(abs(dx - cx), abs(dy - cy))
+        return res
+
+
+
+"""
 Runtime: 3 ms, faster than 35.00% of Python3 online submissions for Minimum Time Visiting All Points.
 Memory Usage: 19.52 MB, less than 6.71% of Python3 online submissions for Minimum Time Visiting All Points.
 """
