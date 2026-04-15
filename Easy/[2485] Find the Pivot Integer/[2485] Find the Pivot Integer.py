@@ -2,7 +2,7 @@
 Accepted
 2485 [Easy]
 Runtime: 70 ms, faster than 29.35% of Python3 online submissions for Find the Pivot Integer.
-Memory Usage: 16.6 MB, less than 23.99% of Python3 online submissions for Find the Pivot Integer.
+Memory Usage: 16.60 MB, less than 23.99% of Python3 online submissions for Find the Pivot Integer.
 """
 class Solution:
     def pivotInteger(self, n: int) -> int:
