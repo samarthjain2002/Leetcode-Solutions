@@ -1,8 +1,8 @@
 """
 Accepted
-1535 [Medium]
+1838 [Medium]
 Runtime: 1193 ms, faster than 30.50% of Python3 online submissions for Frequency of the Most Frequent Element.
-Memory Usage: 31.32MB, less than 18.27% of Python3 online submissions for Frequency of the Most Frequent Element.
+Memory Usage: 31.32 MB, less than 18.27% of Python3 online submissions for Frequency of the Most Frequent Element.
 """
 class Solution:
     def maxFrequency(self, nums: List[int], k: int) -> int:
