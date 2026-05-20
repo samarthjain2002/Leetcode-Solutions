@@ -1,6 +1,6 @@
 """
 Accepted
-441 [Medium]
+441 [Easy]
 Runtime: 59 ms, faster than 36.27% of Python3 online submissions for Arranging Coins.
 Memory Usage: 20.48 MB, less than 62.18% of Python3 online submissions for Arranging Coins.
 """
