@@ -1,6 +1,6 @@
 """
 Accepted
-1432 [Easy]
+1432 [Medium]
 Runtime: 0 ms, faster than 100.00% of Python3 online submissions for Max Difference You Can Get From Changing an Integer.
 Memory Usage: 17.94 MB, less than 15.31% of Python3 online submissions for Max Difference You Can Get From Changing an Integer.
 """

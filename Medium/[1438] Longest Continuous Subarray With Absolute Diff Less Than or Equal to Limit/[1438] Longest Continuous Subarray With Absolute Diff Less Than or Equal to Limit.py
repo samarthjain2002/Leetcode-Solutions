@@ -1,6 +1,6 @@
 """
 Accepted
-1438 [Easy]
+1438 [Medium]
 Runtime: 458 ms, faster than 50.32% of Python3 online submissions for Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit.
 Memory Usage: 26.04 MB, less than 69.37% of Python3 online submissions for Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit.
 """
