@@ -1,7 +1,7 @@
 //Accepted
 //7 [Medium]
 //Runtime: 3 ms, faster than 28.55% of Java online submissions for Reverse Integer.
-//Memory Usage: 40.6 MB, less than 85.20 of Java online submissions for Reverse Integer.
+//Memory Usage: 40.6 MB, less than 85.20% of Java online submissions for Reverse Integer.
 //Wrote the reverse code myself
 class Solution {
     public int reverse(int x) {
