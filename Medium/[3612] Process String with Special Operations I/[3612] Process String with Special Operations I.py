@@ -4,6 +4,8 @@ Accepted
 Runtime: 27 ms, faster than 68.42% of Python3 online submissions for Process String with Special Operations I.
 Memory Usage: 25.82 MB, less than 54.61% of Python3 online submissions for Process String with Special Operations I.
 """
+# Simulation Solution
+# TC: O(2^n), SC: O(2^n)
 class Solution:
     def processStr(self, s: str) -> str:
         res = []
