@@ -1,8 +1,8 @@
 """
 Accepted
 3737 [Medium]
-Runtime: 104 ms, faster than 66.18% of Python3 online submissions for Count Subarrays With Majority Element I.
-Memory Usage: 31.07 MB less than 57.19% of Python3 online submissions for Count Subarrays With Majority Element I.
+Runtime: 1766 ms, faster than 51.56% of Python3 online submissions for Count Subarrays With Majority Element I.
+Memory Usage: 19.48 MB less than 64.89% of Python3 online submissions for Count Subarrays With Majority Element I.
 """
 # Brute-Force Solution
 # TC: O(n^2), SC: O(1)
