@@ -47,7 +47,7 @@ class Solution:
         while low < high:
             mid = low + ((high - low) // 2)
 
-            # nums[mid] can either be equal or greater than mid, never lesser
+            # nums[mid] can either be equal to or greater than mid, never lesser
             if nums[mid] != mid:
                 high = mid
             else:
